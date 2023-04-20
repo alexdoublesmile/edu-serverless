@@ -13,7 +13,7 @@ provider:
 #    variable1: value1
 
 package:
-  artifact: target/hello-dev.jar
+  artifact: target/sls-sample-dev.jar
 
 functions:
   hello:
