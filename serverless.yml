@@ -20,3 +20,9 @@ functions:
       - httpApi:
           path: /first
           method: post
+  mySecondLambda:
+    handler: com.serverless.TestHandler
+    events:
+      - httpApi:
+          path: /second
+          method: get
