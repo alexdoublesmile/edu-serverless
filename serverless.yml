@@ -17,3 +17,6 @@ functions:
       - httpApi:
           path: /first
           method: get
+      - httpApi:
+          path: /first
+          method: post
