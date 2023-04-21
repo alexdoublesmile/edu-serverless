@@ -13,3 +13,7 @@ package:
 functions:
   myFirstLambda:
     handler: com.serverless.Handler
+    events:
+      - httpApi:
+          path: /first
+          method: get
